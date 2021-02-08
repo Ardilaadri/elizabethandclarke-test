@@ -1,21 +1,22 @@
 import React from "react";
+import "../assets/styles/components/Header.css";
 
 const Header = () => {
   <header>
     <div className="header-container">
       <div className="left-icons">
-        <a href="#">
+        <a href="https://shop.elizabethandclarke.com/">
           <img src="../assets/icons/icon_search.svg" alt="search" />
         </a>
-        <a href="#">
+        <a href="https://shop.elizabethandclarke.com/">
           <img src="../assets/icons/icon_user.svg" alt="user" />
         </a>
       </div>
-      <a href="#">
+      <a href="https://shop.elizabethandclarke.com/">
         <img src="../assets/logo/logo.svg" alt="logo" />
       </a>
       <div className="right-icons">
-        <a href="#">
+        <a href="https://shop.elizabethandclarke.com/">
           <img src="../assets/icons/icon_cart.svg" alt="car" />
         </a>
       </div>
@@ -24,75 +25,81 @@ const Header = () => {
       <div className="nav-container">
         <ul>
           <li>
-            <a href="">Tops</a>
+            <a href="https://shop.elizabethandclarke.com/">Tops</a>
             <ul>
               <li>
                 <span>
-                  <a href="#">Categories</a>
+                  <a href="https://shop.elizabethandclarke.com/">Categories</a>
                 </span>
               </li>
               <li>
-                <a href="#">All</a>
+                <a href="https://shop.elizabethandclarke.com/">All</a>
               </li>
               <li>
-                <a href="#">Blouses</a>
+                <a href="https://shop.elizabethandclarke.com/">Blouses</a>
               </li>
               <li>
-                <a href="#">Sweaters</a>
+                <a href="https://shop.elizabethandclarke.com/">Sweaters</a>
               </li>
               <li>
-                <a href="#">Tanks</a>
+                <a href="https://shop.elizabethandclarke.com/">Tanks</a>
               </li>
               <li>
-                <a href="#">Tees</a>
+                <a href="https://shop.elizabethandclarke.com/">Tees</a>
               </li>
             </ul>
             <ul>
               <li>
                 <span>
-                  <a href="#">Dress Code</a>
+                  <a href="https://shop.elizabethandclarke.com/">Dress Code</a>
                 </span>
               </li>
               <li>
-                <a href="#">Work from home</a>
+                <a href="https://shop.elizabethandclarke.com/">
+                  Work from home
+                </a>
               </li>
               <li>
-                <a href="#">Business casual</a>
+                <a href="https://shop.elizabethandclarke.com/">
+                  Business casual
+                </a>
               </li>
               <li>
-                <a href="#">Business formal</a>
+                <a href="https://shop.elizabethandclarke.com/">
+                  Business formal
+                </a>
               </li>
             </ul>
             <ul>
               <li>
                 <span>
-                  <a href="#">Fabrics</a>
+                  <a href="https://shop.elizabethandclarke.com/">Fabrics</a>
                 </span>
               </li>
               <li>
-                <a href="#">Vegan silk</a>
+                <a href="https://shop.elizabethandclarke.com/">Vegan silk</a>
               </li>
               <li>
-                <a href="#">Knit jersey</a>
+                <a href="https://shop.elizabethandclarke.com/">Knit jersey</a>
               </li>
               <li>
-                <a href="#">Ponte knit</a>
+                <a href="https://shop.elizabethandclarke.com/">Ponte knit</a>
               </li>
               <img src="../assets/images/shop-all-hours.jpg " alt="" />
               <img src="../assets/images/shop-unstainable.jpg" alt="" />
             </ul>
           </li>
           <li>
-            <a href="">Bottoms</a>
+            <a href="https://shop.elizabethandclarke.com/">Bottoms</a>
           </li>
           <li>
-            <a href="">Jackets</a>
+            <a href="https://shop.elizabethandclarke.com/">Jackets</a>
           </li>
           <li>
-            <a href="">Dresses</a>
+            <a href="https://shop.elizabethandclarke.com/">Dresses</a>
           </li>
           <li>
-            <a href="">Subscribe & Save</a>
+            <a href="https://shop.elizabethandclarke.com/">Subscribe & Save</a>
           </li>
         </ul>
       </div>
