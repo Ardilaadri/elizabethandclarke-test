@@ -1,0 +1,61 @@
+.welcome-container {
+  width: 100%;
+}
+
+.welcome-container img {
+  width: 100%;
+}
+
+.welcome-container hr {
+  position: absolute;
+  top: 40rem;
+  height: 150%;
+  width: 50px;
+  transform: rotate(-180deg);
+}
+
+.welcome-images {
+  display: flex;
+  width: 32%;
+}
+
+.welcome-images img:nth-child(2) {
+  margin: 0 1rem;
+}
+
+.call-to-action {
+  position: absolute;
+  left: 33.5rem;
+  top: 70rem;
+}
+
+.call-to-action h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 2.3rem;
+}
+.call-to-action span {
+  font-style: italic;
+}
+
+.call-to-action input[type="button"] {
+  background: #202f3b;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  outline: none;
+  border: 1px solid #fff;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border-radius: 70px;
+  margin-top: 1rem;
+  position: relative;
+  left: 3rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .call-to-action {
+    display: none;
+  }
+}
